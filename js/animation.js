@@ -132,8 +132,7 @@ button.addEventListener("click", function () {
             when the door is pressed, scene changes to the gift room. Again, the msg will be displayed, after 
             which, the user will be asked to open the gift and the button with gift will appear.
         */
-    let video3 = document.getElementById("dungkhoc");
-    video3.remove();
+    
 
     door.play();
     transition(hallway);
